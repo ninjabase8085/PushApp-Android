@@ -19,9 +19,9 @@ class WebSocketManager(
 
     private val url: String
         get() {
-//            val baseUrl = "wss://$tenant.mehery.com/pushapp"
-            val baseUrl = "wss://7430c39312c5.ngrok-free.app/pushapp"
-            Log.d("WebSocketManager", "WebSocket URL: $baseUrl")
+            val baseUrl = "wss://$tenant.mehery.com/pushapp"
+//            val baseUrl = "wss://7430c39312c5.ngrok-free.app/pushapp"
+//            Log.d("WebSocketManager", "WebSocket URL: $baseUrl")
             return baseUrl
         }
 

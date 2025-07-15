@@ -57,7 +57,14 @@ class PushApp private constructor() {
             return
         }
 
-        serverUrl = "https://7430c39312c5.ngrok-free.app"
+        if (sandbox) {
+            serverUrl = "https://$tenant.mehery.com"
+        } else {
+            serverUrl = "https://$tenant.mehery.com"
+        }
+        Log.d("PushApp", "Server URL set to: $serverUrl")
+
+//        serverUrl = "https://7430c39312c5.ngrok-free.app"
         Log.d("PushApp", "Server URL: $serverUrl")
         Log.d("PushApp", "Channel ID: $channelId")
 
