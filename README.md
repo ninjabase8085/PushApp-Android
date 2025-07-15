@@ -53,9 +53,9 @@ The SDK auto-registers FCM token and handles push notifications. Ensure you have
 
 ## In-App Notifications
 - The SDK handles:
---Popup full-screen .
---Banner with inline dismiss.
---PiP small floating view with expand logic to popup.
+-- Popup full-screen .
+-- Banner with inline dismiss.
+-- PiP small floating view with expand logic to popup.
 
 No integration required from your side. The SDK renders them when triggered.
 
