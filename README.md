@@ -20,7 +20,7 @@ Then, add the dependency in your module-level build.gradle:
 
 ```gradle
 dependencies {
-    implementation("com.github.ninjabase8085:PushApp-Android:v1.0.2")
+    implementation("com.github.mehery-soccom:PushApp-Android:v1.0.2")
 }
 ```
 
